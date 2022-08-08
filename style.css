@@ -1,0 +1,29 @@
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    min-height:5vh;
+    justify-content: center;
+}
+
+#resetBtn {
+    justify-self: center;
+}
+.container {
+    display: grid;
+    border-color: black;
+    border-style:solid;
+    width: 95vh;
+    height:95vh;
+}
+
+.square {
+    margin:0;
+    padding:0;
+    border-style: none;
+}
